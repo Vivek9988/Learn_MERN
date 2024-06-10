@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container >div>p{
+    color:blue;
+    height: 50px;
+    width: 100px;
+    border:2px solid red;
+    
+
+}
