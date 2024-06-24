@@ -1,0 +1,36 @@
+/* Ensure the image container is positioned relative */
+.image-container {
+    position: relative;
+    width: 50%;
+    /* Adjust the width as needed */
+}
+
+/* Style the image */
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Position the text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust the positioning */
+    color: white;
+    /* Text color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Background color with transparency */
+    padding: 10px;
+    /* Padding around the text */
+    border-radius: 5px;
+    /* Rounded corners (optional) */
+    font-size: 24px;
+    /* Font size */
+    font-family: Arial, sans-serif;
+    /* Font family */
+}
