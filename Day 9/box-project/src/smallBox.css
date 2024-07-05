@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.small-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+.even {
+    background-color: aqua;
+}
+
+.odd {
+    background-color: lightcoral;
+}
