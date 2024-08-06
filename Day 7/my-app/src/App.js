@@ -12,7 +12,7 @@ function App() {
       <VideoBackground />
       
       <Hero />
-      <AdventureDetails />
+      <AdventureDetails  />
       <div className="last"><div className="credit">Created by Vivek</div></div>
     </div>
   );
